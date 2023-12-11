@@ -25,9 +25,9 @@ void main() {
       expect(calculator.value, isNot(1.0));
     });
 
-    test('throws on division by zero', () {
-      final calculator = Calculator();
-      //expect(() => calculator.divide(0.0), throwsArgumentError);
-    });
+    // test('throws on division by zero', () {
+    //   final calculator = Calculator();
+    //   //expect(() => calculator.divide(0.0), throwsArgumentError);
+    // });
   });
 }
